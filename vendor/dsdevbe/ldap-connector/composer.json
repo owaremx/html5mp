@@ -1,0 +1,24 @@
+{
+    "name": "dsdevbe/ldap-connector",
+    "description": "Easily authenticate with LDAP in Laravel",
+    "homepage": "https://github.com/dsdevbe/ldap-connector",
+    "keywords": ["Laravel", "Ldap"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dsdevbe",
+            "email": "dens.sascha@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.2.*",
+        "adldap/adldap": "4.0-stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "Dsdevbe\\LdapConnector\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}

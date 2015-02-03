@@ -1,0 +1,8 @@
+﻿*{
+    font-family:Arial;
+}
+
+.fu-contenedor-datos > span{
+    display:inline-block;
+    margin-right:.5em;
+}

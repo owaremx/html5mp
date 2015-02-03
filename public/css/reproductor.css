@@ -1,0 +1,120 @@
+body{
+
+}
+
+#contenedor{
+	position:fixed;
+	bottom:150px;
+	top:55px;
+	left:0;
+	right:0;
+	overflow: auto
+}
+
+.audio-player {
+	width:100%;
+}
+
+.div-audio-player {
+	background-color: #a0a0a0;
+	padding:1em;
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0	;
+}
+
+.datos-cancion{
+	text-align: center;
+}
+
+.img-musica-busqueda{
+	width: 70px;
+	float:left;
+}
+
+.img-musica-lista{
+	height: 1.5em;
+}
+
+.resultado-busqueda{
+	display: inline-block;
+	padding: .3em;
+	border: solid 1px #d0d0d0;
+	border-radius: 5px;
+	margin:.5%;
+	width:19%;
+	vertical-align: top;
+
+	overflow: hidden;
+}
+
+.display-block{
+	display: block;
+}
+
+.clear{
+	clear:both;
+}
+
+.elemento-lista-reproduccion {
+	padding:3px 0;
+	border-bottom: solid 1px #d0d0d0;
+}
+
+.reproduciendo-true{
+	background-color: #d0d0d0;
+}
+
+#lista-reproduccion{
+	max-height:250px;
+	overflow: auto;
+	background-color: white;
+}
+
+.oculto{
+	display: none
+}
+
+.listas-reproduccion {
+	list-style: none;
+	padding: 0;
+	margin:.5em 0;
+}
+
+.listas-reproduccion li a{
+	display: block;
+	padding: 5px 2px;
+
+}
+
+.listas-reproduccion li a:hover{
+	text-decoration: none;
+	background-color: #d0d0d0;
+}
+
+.ul-lista-interpretes{
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+
+.ul-lista-interpretes a{
+	display: block;
+	padding:.5em;
+	text-decoration: none;
+}
+
+.ul-lista-interpretes a:hover{
+	
+}
+
+.ul-canciones-interprete {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+
+.ul-canciones-interprete li{
+	margin-bottom: .3em;
+}
